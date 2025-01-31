@@ -20,7 +20,7 @@ li {
 }
 
 .container {
-  padding: 0 140px;
+  padding: 0 100px;
 }
 
 .title {
@@ -270,7 +270,7 @@ li {
   margin-right: 8px;
 }
 .main {
-  padding-bottom: 70px;
+  padding-bottom: 122px;
   position: relative;
 }
 .main__container {
@@ -364,7 +364,6 @@ li {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 70px;
   margin-top: 20px;
 }
 .main__bottom-item {
@@ -427,11 +426,9 @@ li {
 .grade {
   position: relative;
 }
-.grade__top {
-  margin-top: 6rem;
-}
 .grade__title {
   margin-bottom: 20px;
+  padding-top: 0;
 }
 .grade__description {
   padding-right: 94px;
@@ -615,17 +612,25 @@ li {
 }
 .first__ch:before {
   left: 48px;
-  bottom: 43px;
+  bottom: 16px;
 }
 
 .second__ch {
   position: relative;
   top: 14px;
 }
+.second__ch:before {
+  left: 48px;
+  bottom: 14px;
+}
 
 .third__ch {
   position: relative;
   top: 21px;
+}
+.third__ch:before {
+  left: 48px;
+  bottom: 11px;
 }
 
 .choice {

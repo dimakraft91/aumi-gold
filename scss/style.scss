@@ -20,7 +20,7 @@ li {
 }
 
 .container {
-	padding: 0 140px;
+	padding: 0 100px;
 }
 
 .title {
@@ -268,7 +268,7 @@ margin-right: 8px;
 // main
 
 .main {
-	padding-bottom: 70px;
+	padding-bottom: 122px;
 	position: relative;
 	// &:after {
 	// 	content: "";
@@ -355,7 +355,6 @@ color: #000;
 	&__bottom {
 		display: flex;
 		justify-content: space-between;
-		margin-bottom: 70px;
 		margin-top: 20px;
 	}
 	&__bottom-item {
@@ -430,11 +429,11 @@ color: #000000;
 	
 	&__container {}
 	&__top {
-		margin-top: 6rem;
 
 	}
 	&__title {
 		margin-bottom: 20px;
+		padding-top: 0;
 	}
 	&__description {
 		    padding-right: 94px;
@@ -626,18 +625,26 @@ display: inline-block;
     position: relative;
     &:before {
     	left: 48px;
-    	    bottom: 43px;
+    	    bottom: 16px;
     }
 }
 
 .second__ch {
 	    position: relative;
     top: 14px;
+    &:before {
+    	left: 48px;
+    	    bottom: 14px;
+    }
 }
 
 .third__ch {
 	position: relative;
 	    top: 21px;
+	    &:before {
+    	left: 48px;
+    	    bottom: 11px;
+    }
 }
 
 
